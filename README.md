@@ -298,4 +298,4 @@ for ct in target_celltypes:
     plt.show()
 ```
 
-![MUSE](https://raw.githubusercontent.com/NakaeFuka/MUSE/main/fig/macaque_mouse_per.png)![MUSE](https://raw.githubusercontent.com/NakaeFuka/MUSE/main/fig/macaque_mouse_exdp.png)
+![MUSE](https://github.com/NakaeFuka/MUSE/main/fig/macaque_mouse_per.png)![MUSE](https://github.com/NakaeFuka/MUSE/main/fig/macaque_mouse_exdp.png)
