@@ -8,11 +8,13 @@ graph/ortholog_esm2_matrix/
 code/rename_CS-GLUE_to_MUSE_procedure.md
 code/migrate_dill_csglue_to_muse.py
 
-# Python build / cache artifacts
+# Python build / cache / distribution artifacts
 __pycache__/
 *.pyc
 *.egg-info/
 .ipynb_checkpoints/
+build/
+dist/
 
 # Training run logs / checkpoints
 code/macaque_mouse_*/

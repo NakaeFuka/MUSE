@@ -2,13 +2,49 @@
 requires = ["setuptools>=64", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "museclue"
+version = "0.1.0"
+description = "MUSE: cross-species single-cell multi-omics data integration (a GLUE-based framework)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "NakaeFuka", email = "conan3125fuka@gmail.com" },
+]
+keywords = [
+    "single-cell",
+    "multi-omics",
+    "cross-species",
+    "data-integration",
+    "GLUE",
+    "deep-learning",
+    "bioinformatics",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+# Runtime dependencies are intentionally not declared here.
+# Set up the environment via environment.yaml (conda); see README.
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/NakaeFuka/MUSE"
+Repository = "https://github.com/NakaeFuka/MUSE"
+Issues = "https://github.com/NakaeFuka/MUSE/issues"
+
 [tool.setuptools]
-package-dir = {"" = "src"}
+package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["museclue*"]
-
-[project]
-name = "museclue"
-version = "0.1.0"
