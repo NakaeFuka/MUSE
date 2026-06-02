@@ -1,0 +1,18 @@
+r"""
+GLUE (Graph-Linked Unified Embedding)
+"""
+
+try:
+    from importlib.metadata import version
+except ModuleNotFoundError:
+    from pkg_resources import get_distribution
+
+    def version(name):
+        return get_distribution(name).version
+
+
+from . import data, genomics, graph, models, num, plot
+from .utils import config, log
+
+name = "museclue"
+__version__ = version(name)

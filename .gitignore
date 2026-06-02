@@ -1,0 +1,18 @@
+# Data (large h5ad inputs)
+data/
+
+# Large intermediate ortholog / RBF-kernel matrices (~180MB)
+graph/ortholog_esm2_matrix/
+
+# Transitional rename scaffolding (kept locally, not published)
+code/rename_CS-GLUE_to_MUSE_procedure.md
+code/migrate_dill_csglue_to_muse.py
+
+# Python build / cache artifacts
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+
+# Training run logs / checkpoints
+code/macaque_mouse_*/
