@@ -1,9 +1,9 @@
 MIT License
 
-museclue (MUSE) is derived from scGLUE — the GLUE project
+MUSE is derived from scGLUE, the implementation of the GLUE project
 (https://github.com/gao-lab/GLUE), originally developed by the Gao Lab and
 distributed under the MIT License. The original copyright and permission
-notice is retained below alongside the copyright for this derived work.
+notices are retained below alongside the copyright notice for this derived work.
 
 Copyright (c) 2026 NakaeFuka
 Copyright (c) 2021 Gao Lab and GLUE contributors
