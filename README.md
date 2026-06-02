@@ -10,7 +10,7 @@ This model offers three main analyses:
 3. UMAP projection of the integrated latent space 
 
 ## MUSE framework
-![MUSE](MUSE/framework.png)
+![MUSE](MUSE%framework.png)
 
 ## Installation
 1. Clone the repository
