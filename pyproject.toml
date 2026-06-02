@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "museclue"
 version = "0.1.0"
-description = "MUSE: cross-species single-cell multi-omics data integration (a GLUE-based framework)"
+description = "MUSE: cross-species single-cell multi-omics data integration"
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
