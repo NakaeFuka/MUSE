@@ -10,7 +10,7 @@ This model offers three main analyses:
 3. UMAP projection of the integrated latent space 
 
 ## MUSE framework
-![MUSE%framework.png](https://github.com/NakaeFuka/MUSE/blob/main/framework.png)
+![MUSE](https://raw.githubusercontent.com/NakaeFuka/MUSE/main/framework.png)
 
 ## Installation
 1. Clone the repository
@@ -298,4 +298,4 @@ for ct in target_celltypes:
     plt.show()
 ```
 
-![MUSE](fig/macaque_mouse_per.png)![MUSE](fig/macaque_mouse_exdp.png)
+![MUSE](https://raw.githubusercontent.com/NakaeFuka/MUSE/main/fig/macaque_mouse_per.png)![MUSE](https://raw.githubusercontent.com/NakaeFuka/MUSE/main/fig/macaque_mouse_exdp.png)
