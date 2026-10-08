@@ -44,6 +44,8 @@ Python >= 3.8
 
 torch >= 2.4.1
 
+pytorch-ignite >= 0.5.2
+
 scanpy >= 1.9.8
 
 anndata >= 0.9.2
@@ -61,6 +63,16 @@ networkx >= 3.1
 igraph >= 0.10.3
 
 leidenalg >= 0.9.1
+
+dill >= 0.4.0
+
+parse >= 1.20.2
+
+pynvml >= 11.5.3
+
+sparse >= 0.15.5
+
+pybedtools >= 0.10.0
 
 ## Build Cross Speceis guidance graph
 Run the command below to build a cross-species guidance graph between macaque and mouse
